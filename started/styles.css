@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+}
+
+p, li {
+    color: green;
+}
+
+li {
+    /*Para quitar los puntos de la lista*/
+    list-style-type: none;
+}
+
+.special{
+    font-weight: bold;
+}
+
+li.special,
+span.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+}
+
+/*Ese + es un "hermano adyacente", es decir, la p que sigue a ese h1. Sólo la que sigue y no tiene que haber nada entre medias*/
+h1 + p {
+    font-size: 200%;
+}
+
+  a:link {
+  color: pink;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}
