@@ -2,12 +2,13 @@ html{
     font-family: 'Roboto', sans-serif;
     font-family: 'Bebas Neue', cursive;
     height: 100%;
-    
 }
 
 main{
     height: 80%;
     overflow-y: scroll;
+    text-align: center;
+    background-color: #e7e7e7;
 }
 
 body{
@@ -16,32 +17,68 @@ body{
 }
 
 header{
-    display: flexbox;
+    display: flex;
     height: 10%;
-    background-color: red;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
 }
+
 header > em{
     display: flex;
-    color: blanchedalmond;
-    justify-content: space-between;
+    color: #a2a2a2;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 footer{
+    display: flex;
     height: 10%;
     background-color: black;
+    align-items: center;
+    justify-content: center;
 }
 
 footer > em{
     display: flex;
-    color: blanchedalmond;
-    justify-content: center;
+    color: #a2a2a2;
     align-items: center;
 }
 
-.container{
+div.container{
+    height: 60%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     overflow-x: scroll;
+    white-space: nowrap;
+    padding-bottom: 15%;
+}
+
+.front-end, .back-end{
+    display: flexbox;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #a2a2a2;
+    text-align: center;
+}
+
+.front-end > h3, .back-end > h3{
+    color: white;
+}
+
+.first_section button {
+    color: #1c6698;
+    border-color: #1c6698;
+    border-radius: 3px;
+    background-color: #e7e7e7;
+    padding: 5px;
+}
+
+.second_section{
+    background-color: black;
+    color: #a2a2a2;
 }
