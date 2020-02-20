@@ -1,0 +1,47 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    height: 100%;
+    
+}
+
+main{
+    height: 80%;
+    overflow-y: scroll;
+}
+
+body{
+    margin: 0px;
+    height: 100%;
+}
+
+header{
+    display: flexbox;
+    height: 10%;
+    background-color: red;
+}
+header > em{
+    display: flex;
+    color: blanchedalmond;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    height: 10%;
+    background-color: black;
+}
+
+footer > em{
+    display: flex;
+    color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    overflow-x: scroll;
+}
