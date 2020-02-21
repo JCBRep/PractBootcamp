@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
     <title>Juan maravilloso</title>
 </head>
 
 <body>
-    <header>
+    <header class="wrapper">
         <h2>Juan maravilloso</h2>
-        <!--TODO Add icon-->
+        <i class="material-icons">menu</i>
+        <i class="material-icons">close</i>
         <!--TODO Add close icon-->
         <nav>
             <ul>
@@ -22,17 +26,17 @@
     </header>
     <main>
         <article>
-            <section id="summary">
+            <section id="summary" class="wrapper">
                 <p>
                     ¡HOLA¡
                 </p>
                 <h1>Soy Juan,
                     desarrollador
                     web</h1>
-                <a href="#">¿HABLAMOS?</a>
+                <a href="#" class="button">¿HABLAMOS?</a>
             </section>
 
-            <section id="about-me">
+            <section id="about-me" class="wrapper">
                 <h2>sobre mi</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -48,7 +52,7 @@
                     allowfullscreen></iframe>
             </section>
 
-            <section id="skills">
+            <section id="skills" class="wrapper">
                 <h2>HABILIDADES</h2>
 
                 <div class="list">
@@ -84,8 +88,8 @@
             </section>
         </article>
     </main>
-    <footer>
-
+    <footer class="wrapper">
+        <p>© 2019 Juan maravilloso </p>
     </footer>
 </body>
 
