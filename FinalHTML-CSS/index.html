@@ -12,12 +12,25 @@
     <header>
 
         <em>JORGE CALVO </em>
-        <em><i class="material-icons">menu</i></em>
+        <em>
+            <button class="material-icons" data-toggle="dropdown">menu</button>
+            <ul class="dropdown-menu" role="menu">
+                <li>
+                    <a href="#primera_seccion">HOLA</a>
+                </li>
+                <li>
+                    <a href="#segunda_seccion">SOBRE MÍ</a>
+                </li>
+                <li>
+                    <a href="#tercera_seccion">HABILIDADES</a>
+                </li>
+            </ul>
+        </em>
     </header>
 
     <main>
         <article>
-            <section class="first_section">
+            <section class="first_section" id="primera_seccion">
                 <br>
                 <br>
                 <h1>¡HOLA!</h1>
@@ -28,7 +41,7 @@
                 <br>
                 <br>
             </section>
-            <section class="second_section">
+            <section class="second_section" id="segunda_seccion">
                 <br>
                 <br>
                 <h2>SOBRE MÍ</h2>
@@ -40,14 +53,14 @@
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     </p>
                 </div>
-                <div>
-                    <iframe src="https://www.youtube.com/embed/YAC-dVrbelU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="video">
+                    <iframe height=100% width=100% src="https://www.youtube.com/embed/YAC-dVrbelU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <br>
                 <br>
             </section>
             <br>
-            <section class="third_section">
+            <section class="third_section" id="tercera_seccion">
                 <h2>
                     HABILIDADES
                 </h2>
@@ -81,12 +94,10 @@
             </section>
         </article>
     </main>
-
     <footer>
         <em>
             <i class="material-icons">copyright</i> JORGE CALVO
         </em>
     </footer>
-    
 </body>
 </html>
